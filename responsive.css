@@ -16,7 +16,10 @@
 .top-banner{
     padding: 9.375rem 0 9.375rem;
 }
-
+/* carousel */
+.testimonial-section .carousel-item .carousel-caption p{
+    padding: 0;
+}
 }
 
 /* for mobile */
@@ -31,5 +34,17 @@
     }
     .top-banner{
         padding: 10.75rem 0 9.375rem;
+    }
+    /* carousel */
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+    }
+}
+
+/* small screen */
+@media(max-width:330px){
+    /* carousel */
+    .testimonial-section .carousel-item {
+        padding: 13rem 3.12rem;
     }
 }
